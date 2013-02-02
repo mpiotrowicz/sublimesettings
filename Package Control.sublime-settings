@@ -1,0 +1,30 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"Alignment",
+		"BracketHighlighter",
+		"CoffeeScript",
+		"Haml",
+		"jQuery",
+		"jQuery Snippets pack",
+		"JsMinifier",
+		"LESS",
+		"LESS-build",
+		"Markdown Preview",
+		"Package Control",
+		"pastebin-sublime-plugin",
+		"Placeholders",
+		"Prefixr",
+		"Prevu",
+		"SCSS",
+		"SideBarEnhancements",
+		"SideBarGit",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeTextGitX",
+		"Tag",
+		"Theme - Soda",
+		"ZenCoding"
+	]
+}
