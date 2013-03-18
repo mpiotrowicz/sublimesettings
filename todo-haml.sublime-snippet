@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
--#TODO - M
+-\#TODO - M
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>haml</tabTrigger>
