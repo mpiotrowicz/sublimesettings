@@ -1,2 +1,3 @@
 [
+  { "keys": ["ctrl_b"], "command": "encode_html_entities" }
 ]

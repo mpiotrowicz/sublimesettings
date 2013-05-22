@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\#TODO
+#TODO
 ]]></content>
 	<tabTrigger>todo</tabTrigger>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

@@ -1,9 +1,27 @@
 {
 	"color_scheme": "Packages/Color Scheme - Default/Blackboard.tmTheme",
 	"draw_white_space": "all",
-	"folder_exclude_patterns": [".svn", ".git", ".sass-cache", "packages"],
-	"file_exclude_patterns": [".DS_Store", "*.png"],
-	"word_wrap": true,
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				"*.html",
+				"*.scssc",
+				".DS_Store", "*.png"
+			],
+			"folder_exclude_patterns":
+			[
+				"svn",
+				"build",
+				".sass-cache",
+				"packages",
+				"fonts",
+				"cache",
+				"tmp/cache"
+			]
+		}
+	],
 	"font_face": "Inconsolata",
 	"font_size": 16.0,
 	"highlight_line": true,
@@ -15,5 +33,6 @@
 	],
 	"tab_size": 2,
 	"theme": "Soda Light.sublime-theme",
-	"translate_tabs_to_spaces": true
+	"translate_tabs_to_spaces": true,
+	"word_wrap": true
 }
