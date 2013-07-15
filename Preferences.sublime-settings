@@ -8,7 +8,8 @@
 			[
 				"*.html",
 				"*.scssc",
-				".DS_Store", "*.png"
+				".DS_Store",
+				"*.png"
 			],
 			"folder_exclude_patterns":
 			[
@@ -27,12 +28,8 @@
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
 	"tab_size": 2,
-	"theme": "Soda Light.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"word_wrap": true
+	"word_wrap": true,
+	"theme" :"Soda Light.sublime-theme"
 }

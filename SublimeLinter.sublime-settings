@@ -57,10 +57,10 @@
     "sublimelinter_delay": 0,
 
     // If true, lines with errors or warnings will be filled in with the outline color.
-    "sublimelinter_fill_outlines": true,
+    "sublimelinter_fill_outlines": false,
 
     // If true, lines with errors or warnings will have a gutter mark.
-    "sublimelinter_gutter_marks": true,
+    "sublimelinter_gutter_marks": false,
 
     // If true, the find next/previous error commands will wrap.
     "sublimelinter_wrap_find": true,
@@ -83,10 +83,11 @@
         "trailing": true,
         "sub": true,
         "smarttabs" : false,
-        "quotmark" : "double",
-        "indent": 1,
+        "quotmark" : "true",
+        "indent": 2,
         "jquery": true,
-        "jquery" : true
+        "curly"  : true,
+        "undef":true
     },
 
     // A list of command line options to send to gjslint. --nobeep is always sent.
@@ -177,7 +178,12 @@
 
     // Set to true to highlight annotations
     "sublimelinter_notes": true,
+    "sublimelinter_gutter_marks": true,
+    "sublimelinter_mark_style": "fill",
 
     // The set of annotation phrases to highlight
     "annotations": ["TODO", "README", "FIXME"]
+
 }
+
+
