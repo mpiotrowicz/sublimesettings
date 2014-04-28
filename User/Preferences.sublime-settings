@@ -1,36 +1,111 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Blackboard.tmTheme",
-	"draw_white_space": "all",
-	"folders":
+	"auto_indent": true,
+	"binary_file_patterns":
 	[
-		{
-			"file_exclude_patterns":
-			[
-				"*.html",
-				"*.scssc",
-				".DS_Store",
-				"*.png"
-			],
-			"folder_exclude_patterns":
-			[
-				"svn",
-				"build",
-				".sass-cache",
-				"packages",
-				"fonts",
-				"cache",
-				"tmp/cache"
-			]
-		}
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip",
+		"*.scssc",
+		"*.svg",
+		"*.min.js",
+		"/vendor/*"
+	],
+	"bold_folder_labels": true,
+	"caret_extra_bottom": 2,
+	"caret_extra_top": 2,
+	"caret_extra_width": 4,
+	"caret_style": "solid",
+	"color_scheme": "Packages/User/cobalt2 (SL).tmTheme",
+	"detect_indentation": false,
+	"draw_white_space": "all",
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.scssc",
+		".DS_Store",
+		"*.png",
+		"*.svg",
+		"*.min.js",
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.dat"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"svn",
+		"build",
+		".sass-cache",
+		"packages",
+		"fonts",
+		"cache",
+		"tmp/cache",
+		"admin",
+		"deploy",
+		"public"
 	],
 	"font_face": "Inconsolata",
-	"font_size": 18.0,
+	"font_size": 19.0,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"match_brackets": true,
+	"match_brackets_angle": true,
+	"match_brackets_braces": true,
+	"match_brackets_content": true,
+	"match_brackets_square": true,
+	"show_full_path": true,
+	"smart_indent": true,
 	"tab_size": 2,
+	"theme": "Cobalt2.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"word_wrap": true,
-	"theme" :"Soda Light.sublime-theme",
-	"trim_trailing_white_space_on_save" : true
+	"trim_trailing_white_space_on_save": true,
+	"wide_caret": true,
+	"word_wrap": true
 }

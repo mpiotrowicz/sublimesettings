@@ -1,12 +1,12 @@
 <snippet>
   <content><![CDATA[
-  /**
-   * ${1}
-   *
-   * @param ${2}
-   * @param ${3}
-   * @param ${4}
-   */
+/**
+ * ${1}
+ *
+ * @param ${2}
+ * @param ${3}
+ * @param ${4}
+*/
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>jsdoc</tabTrigger>

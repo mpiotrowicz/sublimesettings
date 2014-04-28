@@ -1,3 +1,4 @@
 [
-  { "keys": ["ctrl_b"], "command": "encode_html_entities" }
+{ "keys": ["alt+shift+r"], "command": "side_bar_move" }
+
 ]
