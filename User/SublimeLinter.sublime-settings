@@ -8,34 +8,19 @@
         "debug": false,
         "delay": 0.25,
         "error_color": "D02000",
-        "gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme",
+        "gutter_theme": "Packages/SublimeLinter/gutter-themes/Circle/Circle.gutter-theme",
         "gutter_theme_excludes": [],
         "lint_mode": "background",
         "linters": {
-            "csslint": {
+            "jscs": {
                 "@disable": false,
                 "args": [],
-                "errors": "",
-                "excludes": [],
-                "ignore": "",
-                "warnings": ""
+                "excludes": []
             },
             "jshint": {
                 "@disable": false,
                 "args": [],
-                "browser": true,
-                "curly": true,
-                "evil": true,
-                "excludes": [],
-                "indent": 2,
-                "jquery": true,
-                "quotmark": "true",
-                "regexdash": true,
-                "smarttabs": false,
-                "sub": true,
-                "trailing": true,
-                "undef": true,
-                "wsh": true
+                "excludes": []
             }
         },
         "mark_style": "fill",
@@ -53,7 +38,7 @@
         "rc_search_limit": 3,
         "shell_timeout": 10,
         "show_errors_on_save": true,
-        "show_marks_in_minimap": true,
+        "show_marks_in_minimap": false,
         "syntax_map": {
             "html (django)": "html",
             "html (rails)": "html",

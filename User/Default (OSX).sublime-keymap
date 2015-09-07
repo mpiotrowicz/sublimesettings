@@ -1,4 +1,4 @@
 [
-{ "keys": ["alt+shift+r"], "command": "side_bar_move" }
-
+{ "keys": ["alt+shift+r"], "command": "side_bar_move" },
+{ "keys": ["super+ctrl+a"], "command": "alignment" }
 ]

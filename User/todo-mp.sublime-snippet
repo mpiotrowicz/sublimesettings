@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+// #TODO - MP: ${1}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>todomp</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.scss, source.js</scope>
+</snippet>

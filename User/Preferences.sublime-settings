@@ -15,6 +15,8 @@
 		"*.swf",
 		"*.jar",
 		"*.zip",
+		"*.log",
+		"/node_modules/*",
 		"*.scssc",
 		"*.svg",
 		"*.min.js",
@@ -26,8 +28,8 @@
 	"caret_extra_width": 4,
 	"caret_style": "solid",
 	"color_scheme": "Packages/User/cobalt2 (SL).tmTheme",
-	"detect_indentation": false,
 	"draw_white_space": "all",
+	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
 	[
 		"*.pyc",
@@ -52,14 +54,6 @@
 		"*.db",
 		"*.scssc",
 		".DS_Store",
-		"*.png",
-		"*.svg",
-		"*.min.js",
-		"*.jpg",
-		"*.jpeg",
-		"*.png",
-		"*.gif",
-		"*.ttf",
 		"*.dat"
 	],
 	"folder_exclude_patterns":
@@ -69,18 +63,16 @@
 		".hg",
 		"CVS",
 		"svn",
-		"build",
 		".sass-cache",
 		"packages",
 		"fonts",
 		"cache",
 		"tmp/cache",
 		"admin",
-		"deploy",
-		"public"
+		"deploy"
 	],
 	"font_face": "Inconsolata",
-	"font_size": 19.0,
+	"font_size": 18.0,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
@@ -100,6 +92,10 @@
 	"match_brackets_braces": true,
 	"match_brackets_content": true,
 	"match_brackets_square": true,
+	"rulers":
+	[
+		80
+	],
 	"show_full_path": true,
 	"smart_indent": true,
 	"tab_size": 2,
