@@ -1,0 +1,22 @@
+{
+  "browser": true,
+  "node": true,
+  "curly": true,
+  "eqeqeq": true,
+  "evil": true,
+  "indent": 2,
+  "quotmark": "single",
+  "regexdash": true,
+  "smarttabs": false,
+  "sub": true,
+  "trailing": true,
+  "undef": true,
+  "wsh": true,
+  "camelcase": true,
+  "predef": [
+    "App",
+    "Modernizr",
+    "JST",
+    "I18n"
+  ]
+}
